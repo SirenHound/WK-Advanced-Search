@@ -14,14 +14,18 @@ except it will not return the following results:
 * 東京都
 * 東京弁
 
+The **CONTAINING** operator
+Used with Kanji and Radicals
+<div>
+  <span>:mag: CONTAINING lion</span>
+</div>
+Returns all subjects using the Lion radical
 
--> Implied type 'all' (radical kanji vocabulary)
-// Unique keywords
-Kanji CONTAINING lion
- 	-> Should return all Kanji using the Lion radical
-	-> Explicit type kanji
-Kanji IN 東京
+The **IN** operator
+  <span>:mag: IN 東京</span>
 	-> [k"東", k"京"]
+
+
 CONTAINING 京
 IN 日本製
 		NOTE finding voc in voc might be slow
