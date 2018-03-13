@@ -2,11 +2,19 @@
 Advanced search for Wanikani using its v2 API
 
 # Example Usage
+
+The **NOT** operator
 <div>
   <span>:mag: 東 NOT 京</span>
 </div>
-	-> Should not return 東京
-	-> Implied type 'all' (radical kanji vocabulary)
+Just like a search for 東,
+except it will not return the following results:
+*東京
+*東京都
+*東京弁
+
+
+-> Implied type 'all' (radical kanji vocabulary)
 // Unique keywords
 Kanji CONTAINING lion
  	-> Should return all Kanji using the Lion radical
