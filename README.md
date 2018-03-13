@@ -9,9 +9,10 @@ The **NOT** operator
 </div>
 Just like a search for 東,
 except it will not return the following results:
-*東京
-*東京都
-*東京弁
+
+* 東京
+* 東京都
+* 東京弁
 
 
 -> Implied type 'all' (radical kanji vocabulary)
